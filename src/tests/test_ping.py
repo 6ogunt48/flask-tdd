@@ -8,3 +8,4 @@ def test_ping(test_app):
     assert resp.status_code == 200
     assert 'pong' in data['message']
     assert 'success' in data['status']
+
